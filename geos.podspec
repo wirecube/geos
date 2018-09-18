@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   
   s.public_header_files = 'capi/geos_c.h', 'include/geos/export.h'
 
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/geos/include ${PODS_ROOT}/geos/capi', 'CLANG_CXX_LIBRARY' => 'libstdc++'}
+  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '${PODS_ROOT}/geos/include ${PODS_ROOT}/geos/capi', 'CLANG_CXX_LIBRARY' => 'libc++'}
 
 end
 
